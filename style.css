@@ -60,9 +60,6 @@ select {
   font-size: 30px;
 }
 
-@media (max-width:475px) {
-  
-}
 
 input {
   width: 100%;
@@ -79,4 +76,10 @@ input {
 
 button {
   width: 100%;
+}
+
+@media (max-width:475px) {
+  .top-container {
+    height: 25vh;
+  }
 }
