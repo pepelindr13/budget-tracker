@@ -43,7 +43,7 @@ select {
 
 .left-top {
   background-color: darkred;
-  height: 25vh;
+  /* height: 25vh; */
   border-radius: 10px;
 }
 
@@ -54,7 +54,7 @@ select {
 
 .right-top {
   background-color: #ff5959;
-  height: 25vh;
+  /* height: 25vh; */
   border-radius: 10px;
 }
 
