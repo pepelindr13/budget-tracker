@@ -3,6 +3,10 @@
   max-width: 100vw;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100vw;
 }
@@ -10,7 +14,7 @@ body {
 .top-container {
   height: 35vh;
   border-radius: 10px;
-  background-color: darkgreen;
+  background-color: #ff7801;
   margin: 0;
   width: 100%;
   
@@ -38,7 +42,7 @@ select {
 }
 
 .left-top {
-  background-color: #fa9b49;
+  background-color: darkred;
   height: 25vh;
   border-radius: 10px;
 }
