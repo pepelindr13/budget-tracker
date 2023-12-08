@@ -86,4 +86,8 @@ button {
   .top-container {
     height: 25vh;
   }
+
+  .left-top, .right-top {
+    height: max-content;
+  }
 }
