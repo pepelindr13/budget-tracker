@@ -12,7 +12,7 @@ html {
 
 body {
   max-width: 100vw;
-  font-family: 'Whisper', cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .top-container {
@@ -21,7 +21,7 @@ body {
   background-color: #ff7801;
   margin: 0;
   width: 100%;
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 select {
   border: none;
@@ -33,11 +33,13 @@ select {
 
 .top-container h1 {
   font-size: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top-container h2{
   font-size: 50px;
-  font-weight: 100
+  font-weight: 100;
+   font-family: 'Whisper', cursive;
 }
 
 .top-container img {
@@ -60,13 +62,20 @@ select {
   background-color: #ff5959;
   /* height: 25vh; */
   border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .right-top img {
   height: 100px;
 }
 
+.right-top h2, .left-top h2 {
+  font-family: 'Whisper', cursive;
+  font-size: 40px;
+}
+
 #err {
   color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .exp {
