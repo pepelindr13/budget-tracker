@@ -16,7 +16,7 @@ body {
 }
 
 .top-container {
-  height: 35vh;
+  height: max-content;
   border-radius: 10px;
   /* background-image: linear-gradient(to right ,rgb(255, 68, 0), rgb(13, 190, 143)); */
   background-image: linear-gradient(to left ,black, rgb(255, 2, 44));
