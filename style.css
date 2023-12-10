@@ -38,7 +38,7 @@ select {
 }
 
 .top-container h2{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 100;
    font-family: 'Whisper', cursive;
 }
@@ -71,7 +71,7 @@ select {
 
 .right-top h2, .left-top h2 {
   font-family: 'Whisper', cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 #err {
