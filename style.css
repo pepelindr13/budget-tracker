@@ -18,7 +18,8 @@ body {
 .top-container {
   height: 35vh;
   border-radius: 10px;
-  background-color: #ff7801;
+  /* background-image: linear-gradient(to right ,rgb(255, 68, 0), rgb(13, 190, 143)); */
+  background-image: linear-gradient(to left ,black, rgb(255, 2, 44));
   margin: 0;
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,7 +49,7 @@ select {
 }
 
 .left-top {
-  background-color: darkred;
+  background-image: linear-gradient(to right ,rgb(0, 0, 0), rgba(2, 255, 53, 0.455));
   /* height: 25vh; */
   border-radius: 10px;
 }
@@ -59,7 +60,7 @@ select {
 }
 
 .right-top {
-  background-color: #ff5959;
+  background-image: linear-gradient(to right ,rgb(0, 136, 255), rgb(155, 13, 190));
   /* height: 25vh; */
   border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -70,7 +71,7 @@ select {
 
 .right-top h2, .left-top h2 {
   font-family: 'Whisper', cursive;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #err {
@@ -100,6 +101,12 @@ input {
 
 button {
   width: 100%;
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(255, 106, 0);
+  border:1px solid rgb(255, 106, 0);
 }
 
 @media (max-width:475px) {
