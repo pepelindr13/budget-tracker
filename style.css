@@ -70,8 +70,8 @@ select {
 }
 
 .right-top h2, .left-top h2 {
-  font-family: 'Whisper', cursive;
-  font-size: 40px;
+  font-family: cursive;
+  font-size: 20px;
 }
 
 #err {

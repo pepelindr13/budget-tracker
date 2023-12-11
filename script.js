@@ -8,7 +8,7 @@ function calc() {
     // exp.innerHTML = "-#0"
   }else {
     exp.innerHTML = "-#" + expense
-    bal.innerHTML = "#" + (10000 - expense)
+    bal.innerHTML = "#" + (300000 - expense)
     err.innerHTML = ""
   }
 
